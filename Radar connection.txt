@@ -1,0 +1,32 @@
+HERE ARE THE CONNECTION...i.e. THE CIRCUIT
+
+1.Ultrasonic Sensor:
+
+Trigger Pin: Connect the TRIG pin of the ultrasonic sensor to pin 9 on the Arduino.
+Echo Pin: Connect the ECHO pin of the ultrasonic sensor to pin 10 on the Arduino.
+VCC: Connect the VCC pin of the sensor to the 5V pin on the Arduino.
+GND: Connect the GND pin of the sensor to the GND pin on the Arduino.
+
+
+2.Servo Motor:
+Signal Pin: Connect the control (signal) wire of the servo motor to pin 3 on the Arduino.
+Power: Connect the servo motor's power wire to the 5V pin on the Arduino.
+Ground: Connect the servo motor's ground wire to the GND pin on the Arduino.
+
+
+3.LED:
+Positive Leg (Anode): Connect the longer leg of the LED to pin 6 on the Arduino through a current-limiting resistor (if you have one; usually 220Ω to 1kΩ is ideal).
+Negative Leg (Cathode): Connect the shorter leg of the LED to the GND pin on the Arduino.
+
+
+AT A GLANCE
+
+Arduino Pin 9 → Trigger pin of the ultrasonic sensor.
+Arduino Pin 10 → Echo pin of the ultrasonic sensor.
+Arduino Pin 3 → Signal pin of the servo motor.
+Arduino Pin 6 → Anode (positive) leg of the LED.
+5V Pin → VCC of the ultrasonic sensor and servo motor.
+GND Pin → GND of the ultrasonic sensor, servo motor, and LED cathode.
+
+
+
